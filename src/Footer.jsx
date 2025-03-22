@@ -1,11 +1,11 @@
 import React from "react";
 
-function Footer (){
-    return(
+function Footer() {
+    return (
         <div>
-            <h3> ini adalah halaman Footer </h3>
-            <Footer> 🎶 Designed by </Footer>
+            <h3>ini adalah Halaman Footer</h3> 
+            <footer>🐱‍🚀 Design  me ti2 👍 </footer>
         </div>
     );
-}
+} 
 export default Footer;

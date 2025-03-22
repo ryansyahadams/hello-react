@@ -1,22 +1,15 @@
-// import libraries 
+// Import Libraries
 import React from "react";
-// create component
+//create componenet
 class Header extends React.Component{
-    render(){
+    render() {
       return (
-        <h2>ini adalah makanan khas indonesia </h2>
+          <div>
+            <h2>ini Makanan Khas Indonesia</h2>
+          </div>
       );
     }
-  }
-  function App(){
-    return (
-      <div>
-      <h1>Hello React</h1>
-      <Header />
-      <Footer />
-      </div>
-    );
-  }
-  // Export default
-  export default Header;
+}  
+// export component 
+export default Header;
 
